@@ -8,7 +8,6 @@
 //    private double[] distTo;
 //    private MinPQ<Double> pq;
 //    private boolean[] marked;
-//
 //    public PrimMST(EdgeWeightedGraph G){
 //        distTo  = new double[G.V()];
 //        edgeTo = new Edge[G.V()];
