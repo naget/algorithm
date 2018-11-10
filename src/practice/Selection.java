@@ -1,5 +1,7 @@
 package practice;
 
+import practice.strings.CountSort;
+
 /**
  * Created by tianfeng on 2018/2/24.
  */
@@ -20,7 +22,7 @@ public class Selection {
 
     public static void main(String[] args) {
         int[] array = {2,5,6,8,4,2,5,4,8,6};
-        Selection.sort(array);
+        CountSort.sort(array);
         for (int i :
                 array) {
             System.out.print(i+" ");
